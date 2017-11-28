@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="MainScene" extends="Scene" xsi:noNamespaceSchemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+
+<interface>
+		<field id="quit" type="bool" value="false" alwaysNotify="false"/>
+</interface>
+
+<script type="text/brightscript" uri="pkg:/components/MainScene.brs"/>
+<script type="text/brightscript" uri="pkg:/source/Utils.brs"/>
+
+<children>
+	<Label id="cityName"
+		translation="[ 180, 180 ]"
+		color="0xEEEEEEFF"
+		width="1560"
+		font="font:LargeBoldSystemFont"
+		horizAlign="center"
+		vertAlign="center"/>
+
+	<Poster
+	  id="weatherPoster"
+	  width="200"
+	  height="200"
+		loadDisplayMode="scaleToFill"
+	  translation="[ 180, 240 ]" />
+
+	<Label id="cityWeather"
+		translation="[ 380, 315 ]"
+		color="0xEEEEEEFF"
+		width="1380"
+		font="font:MediumBoldSystemFont"
+		horizAlign="left"
+		vertAlign="center"/>
+
+	<Poster
+		uri="pkg:/images/thermometer.png"
+	  width="30"
+	  height="120"
+		loadDisplayMode="scaleToFill"
+	  translation="[ 270, 420 ]" />
+
+	<Label id="cityTemperature"
+		translation="[ 360, 450 ]"
+		color="0xEEEEEEFF"
+		width="1380"
+		font="font:MediumSystemFont"
+		horizAlign="left"
+		vertAlign="center"/>
+
+	<Label id="cityMore"
+		translation="[ 360, 510 ]"
+		color="0xEEEEEEFF"
+		width="1380"
+		font="font:MediumSystemFont"
+		horizAlign="left"
+		vertAlign="center"/>
+
+		<!-- TODO: Add forecast for next 3/5 days -->
+
+</children>
+
+</component>

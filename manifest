@@ -1,0 +1,17 @@
+# Channel Details
+title=MUT Test Channel
+major_version=0
+minor_version=0
+build_version=1
+
+# Resolution
+mm_icon_focus_hd=pkg:/images/mm_icon_focus_hd.png
+
+# Splash Screen + Loading Screen Artwork
+splash_screen_fhd=pkg:/images/splash-screen.png
+splash_color=#808080
+splash_min_time=1000
+
+# Resolution
+ui_resolutions=fhd
+uri_resolution_autosub=$$RES$$,sd,hd,fhd

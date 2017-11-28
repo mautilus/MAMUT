@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="WeatherQueryTask" extends="Task" xsi:noNamespaceSchemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+
+<interface>
+	<field id="cityId" type="String" value="3078610"/> <!-- Brno, CZ -->
+	<field id="result" type="assocarray" alwaysNotify="true"/>
+</interface>
+
+<script type="text/brightscript" uri="pkg:/components/tasks/WeatherQueryTask.brs"/>
+<script type="text/brightscript" uri="pkg:/source/WeatherAPI.brs"/>
+<script type="text/brightscript" uri="pkg:/source/Utils.brs"/>
+
+</component>
