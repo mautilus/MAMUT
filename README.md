@@ -36,6 +36,7 @@ User sees in the browser the test results and can export these as a pdf or csv f
 
 ### 4. Contact
 
-E-mail: technical_support@mautilus.com
-Web: www.mamuttool.com
-Feel free to contact us if you have any technical question
+- E-mail: technical_support@mautilus.com
+- Web: www.mamuttool.com
+
+Feel free to contact us if you have any technical question or check our web www.mamuttool.com 
